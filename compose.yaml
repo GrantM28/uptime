@@ -1,6 +1,6 @@
 services:
   uptime-kuma:
-    image: ghcr.io/GrantM28/uptime:latest
+    image: ghcr.io/grantm28/uptime:latest
     container_name: madi-monitor
     restart: unless-stopped
     volumes:
